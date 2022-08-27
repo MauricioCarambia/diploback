@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.container .row {
+    margin: 20px auto;
+}
+
+.container .row .col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container .cerrar {
+    background-color: firebrick;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 10px;
+}
+
+.container .nueva {
+    background-color: darkcyan;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.container .editar {
+    background-color: skyblue;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px 17px;
+    text-decoration: none;
+    color: white;
+}
+
+.container .eliminar {
+    background-color: firebrick;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    background-color: darkcyan;
+    padding-left: 200px;
+    justify-content: left;
+    gap: 50px;
+    height: 120px;
+    font-family: 'Raleway', sans-serif;
+}
+.cabecera {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    height: 120px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header .cabeza {
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header .sala {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+header .atencion {
+    text-align: right;
+    justify-content: right;
+}
+
+.imagenlogo {
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.formulario {
+    margin: 50px 30%;
+    width: 0px auto;
+    padding: 10px 0px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid darkcyan;
+}
+
+.formulario h2 {
+    margin: 10px 20%;
+    text-decoration: underline;
+}
+
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 5px 50px;
+    width: 500px;
+    font-weight: bold;
+}
+
+.formulario .campo textarea {
+    resize: vertical;
+}
+
+.formulario .campo .campo_individual {
+    margin: 5px;
+}
+
+.formulario .campo a {
+    border: 2px solid black;
+    text-decoration: none;
+    width: 390px;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+
+}
+
+.pie {
+    background-color: darkcyan;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: white;
+    height: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .titulos_pag {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor .columnas {
+        min-width: 100%;
+        display: block;
+    }
+
+    .contenedor .especialidades .info {
+        min-width: 100%;
+    }
+
+    .contenedor h2 {
+        margin: 0px 40px;
+    }
+
+    nav ul {
+        min-width: 100%;
+
+    }
+
+    .serviciototal {
+        min-width: 100%;
+        display: block;
+    }
+
+    .contenedor .derivaciones ul li {
+        margin: 0px 10px;
+
+    }
+
+    .columnas {
+        display: block;
+    }
+
+    .columnas .noticias {
+        min-width: 100%;
+    }
+
+    .columnas .telefonos {
+        min-width: 100%;
+    }
+
+}

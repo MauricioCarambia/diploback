@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de noticias</title>
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/estilo.css">
+
+</head>
+
+<div class="formulario">
+    <form action="/admin/login" method="post">
+        <div class="campo">
+            <label class="campo_individual" for="usuario">Usuario</label>
+            <input class="campo_individual" type="text" placeholder="Usuario" name="usuario">
+        </div>
+        <div class="campo">
+            <label class="campo_individual" for="password">Contraseña</label>
+            <input class="campo_individual" type="password" name="password" placeholder="Contraseña">
+        </div>
+        <div class="campo">
+            <button class="campo_individual" type="submit">Ingresar</button>
+        </div>
+    </form>
+    <div class="campo">
+    {{#if error}}
+    <p>Usuario y contraseña incorrecto</p>
+    {{/if}}
+    </div>
+</div>
